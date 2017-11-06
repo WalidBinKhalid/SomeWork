@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Description from './Login.js';
+import FormTop from './Login.js';
 import ReactDOM from 'react-dom';
 import './index.css';
 
@@ -11,7 +11,7 @@ class App extends React.Component {
     return (
       <div className="App">
         something just like this
-        <Description />
+        <FormTop />
       </div>
     );
   }
